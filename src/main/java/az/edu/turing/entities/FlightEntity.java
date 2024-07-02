@@ -10,6 +10,14 @@ public class FlightEntity {
     private LocalDateTime flightDateTime;
     private int seatsAvaliable;
 
+    public FlightEntity(long flightId, String location, String destination, LocalDateTime flightDateTime, int seatsAvaliable) {
+        this.flightId = flightId;
+        this.location = location;
+        this.destination = destination;
+        this.flightDateTime = flightDateTime;
+        this.seatsAvaliable = seatsAvaliable;
+    }
+
     public long getFlightId() {
         return flightId;
     }

@@ -1,4 +1,4 @@
 package az.edu.turing.dao;
 
-public class FlightDao {
+public abstract class FlightDao implements DAO{
 }

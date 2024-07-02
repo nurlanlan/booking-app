@@ -1,4 +1,4 @@
 package az.edu.turing.dao;
 
-public class BookingDao {
+public abstract class BookingDao implements DAO{
 }
