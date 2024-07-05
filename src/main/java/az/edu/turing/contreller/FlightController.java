@@ -13,6 +13,10 @@ public class FlightController {
 
     public FlightService flightService;
 
+    public FlightController(FlightService flightService) {
+        this.flightService = flightService;
+    }
+
     public List<FlightDto> findFlightsFromKievIn24Hours(String location, LocalDateTime dateTime) {
         return flightService.findFlightsFromKievIn24Hours(location, dateTime);
     }
