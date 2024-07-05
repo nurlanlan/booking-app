@@ -7,6 +7,10 @@ import java.util.Optional;
 import java.util.function.Predicate;
 
 public class FlightDaoImpl extends FlightDao {
+
+    private static final String RESOURCE_PATH = "src/main/java/az/edu/turing/resource/";
+    private static final String FLIGHTS_PATH_FILE = RESOURCE_PATH.concat("flights.bean");
+
     @Override
     public boolean save(Collection t) {
         return false;
