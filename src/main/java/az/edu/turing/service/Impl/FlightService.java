@@ -1,5 +1,6 @@
 package az.edu.turing.service.Impl;
 
+import az.edu.turing.dao.FlightDao;
 import az.edu.turing.model.FlightDto;
 import az.edu.turing.service.FlightInterface;
 
@@ -9,6 +10,13 @@ import java.util.List;
 import java.util.Optional;
 
 public class FlightService implements FlightInterface {
+
+    FlightDao flightDao;
+
+    public FlightService(FlightDao flightDao) {
+        this.flightDao = flightDao;
+    }
+
     @Override
     public List<FlightDto> findFlightsFromKievIn24Hours(String location, LocalDateTime dateTime) {
         return null;
