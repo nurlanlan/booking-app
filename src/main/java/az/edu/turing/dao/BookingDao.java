@@ -1,4 +1,6 @@
 package az.edu.turing.dao;
 
-public abstract class BookingDao implements DAO{
+import az.edu.turing.entities.FlightEntity;
+
+public abstract class BookingDao implements DAO<FlightEntity>{
 }
