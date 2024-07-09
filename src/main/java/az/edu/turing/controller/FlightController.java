@@ -1,6 +1,5 @@
-package az.edu.turing.contreller;
+package az.edu.turing.controller;
 
-import az.edu.turing.dao.BookingDao;
 import az.edu.turing.model.FlightDto;
 import az.edu.turing.service.Impl.FlightService;
 

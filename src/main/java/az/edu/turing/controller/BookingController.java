@@ -1,4 +1,4 @@
-package az.edu.turing.contreller;
+package az.edu.turing.controller;
 
 import az.edu.turing.model.BookingDto;
 import az.edu.turing.service.Impl.BookingService;

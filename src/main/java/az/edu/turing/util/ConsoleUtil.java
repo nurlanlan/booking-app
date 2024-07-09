@@ -1,19 +1,17 @@
 package az.edu.turing.util;
 
-import az.edu.turing.contreller.BookingController;
-import az.edu.turing.contreller.FlightController;
+import az.edu.turing.controller.BookingController;
+import az.edu.turing.controller.FlightController;
 import az.edu.turing.dao.BookingDao;
 import az.edu.turing.dao.FlightDao;
 import az.edu.turing.dao.Impl.BookingDaoImpl;
 import az.edu.turing.dao.Impl.FlightDaoImpl;
 import az.edu.turing.exception.InvalidMenuActionException;
-import az.edu.turing.model.FlightDto;
 import az.edu.turing.service.Impl.BookingService;
 import az.edu.turing.service.Impl.FlightService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
-import java.util.Collection;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
